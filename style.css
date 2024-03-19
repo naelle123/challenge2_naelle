@@ -1,0 +1,398 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    background-color: #0c0b0b;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
+.vue
+{
+    background-color: rgb(1, 1, 17);
+    width: 100%;
+    height: auto;
+    color: #f2f2f2;
+    margin: 10px auto;
+    /* background-image: url(./image/bg-curvy-mobile.svg); */
+    background-size: 100% 100vh;
+     background-repeat: no-repeat;
+}
+.entete
+{
+    display: inline-block;
+}
+.logo-fylo
+{
+    display: inline-block;
+    margin: 15px;
+}
+.inscription
+{
+    display: inline-block;
+    margin-left: 1000px;
+}
+ul .li1{
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
+    font-size: small;
+    cursor: pointer;
+}
+ .image
+ {
+    width: 50%;
+    height: 20em;
+    background-position: center;
+    background-size: 350px;
+    overflow: hidden;
+    /* border: 1px solid white; */
+    padding: 15px;
+    padding-left: 30px;
+    margin-left: 170px;
+    position: relative;
+    right: -90px;
+ }
+ .icon
+ {
+    width: 500px;
+    height: 350px;
+ }
+ .milieu
+ {
+    width: 70%;
+    height: auto;
+    /* border: 1px solid rgb(235, 227, 227); */
+    margin: 10px auto;
+    margin-left: 140px;
+ }
+ .titre
+ {
+    font-weight: bold;
+    font-size: x-large;
+    word-spacing: 5px;
+    text-align: center;
+ }
+ .bas
+ {
+    text-align: center;
+ }
+ .bas p
+ {
+    text-align: center;
+ }
+ .button1
+ {
+    font-weight: bold;
+    background-color: rgb(41, 218, 231);
+    width: 43%;
+    height: 3em;
+    border-radius: 6em;
+    border: none;
+    color: #f2f2f2;
+ }
+ .part1, .part2{
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+ }
+.ligne1
+{
+    display: inline-block;
+    width: 100%;
+    margin-top: 55px;
+}
+.title{
+    font-weight: 900;
+    font-size: 20px;
+}
+.part2
+{
+    float: right;
+    margin-top: 0;
+}
+.part1
+{
+    margin-top: 10px;
+}
+.ligne2
+{
+    display: inline-block;
+    width: 100%;
+    margin-top: 55px;
+}
+.title{
+    font-weight: 900;
+    font-size: 20px;
+}
+.part4
+{
+    float: right;
+    margin-top: 7px;
+}
+.part3, .part4{
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+}
+.prem-ligne
+{
+    margin: 35px 10px 90px 0px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:1px solid #f2f2f2; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    /* row-gap: 20px; */
+
+}
+.ecrit-pied
+{
+    /* display: inline-block;
+    width: 45%;
+    justify-content: left; */
+    /* border: 1px solid white;  */
+    /* margin-left: 185px; */
+    float: left;
+    font-size: 18px;
+    position: relative;
+    margin-top: 50px;
+    left: -12%;
+}
+.tof
+{
+    /* display: flex; */
+    /* float: left; */
+    margin-left: 200px;
+}
+.lien
+{
+    color: rgb(80, 209, 166);
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.grand-titre{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+.pied
+{
+    width: 100%;
+    /* border: 1px solid #fff; */
+    margin: 2px auto;
+    height: auto;
+}
+.text
+{
+    margin-top: 15px;
+}
+.pp
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.photo
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile
+{
+    width: 85%;
+    /* border: 1px solid #fff;   */
+    margin: 2px auto;
+    height: 235px;
+    position: relative;
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(./image/bg-quotes.png);
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.profile1,.profile2,.profile3
+{
+    width: calc(80% / 3);
+    height: 185px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding-left: 25px;
+    background-color: #1c222e;
+    box-shadow: 0px 0px 5px #1c222e;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.presentation
+{
+    display: inline-block;
+    /* margin-left: 10px; */
+}
+.l1{
+    font-size: large;
+    font-weight: bold;
+    line-height: 1px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+.l2{
+    margin-bottom: 20px;
+}
+.statut
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 10px;
+}
+.fin
+{
+    width: 100%;
+    background-color: #030406;
+    /* border: 1px solid #fff;   */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px; 
+    height: 400px;
+    padding-top: 100px;
+    line-height: 25px;
+    box-shadow: 0px 0px 10px #030406;
+}
+.filo
+{
+    width: 95px;
+    height: 27px;
+    position: relative;
+    top: -100px;
+    right: -110px;
+
+}
+.log
+{
+    position: relative;
+    left: -95px;
+    bottom: -20px;
+}
+.la
+{
+    /* border: 1px solid #fff;   */
+    height: auto;
+}
+.la1
+{
+   position: relative;
+   top: -20px;
+   left: -60px;
+}
+.la2
+{
+    position: relative;
+    left: -100px;
+}
+.num
+{
+    position: relative;
+    top: -10px;
+    left: -45px;
+}
+.la4
+{
+    position: relative;
+    left: -45px;
+}
+.la4 ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: -30px;
+}
+.la5
+{
+    position: relative;
+    left: -70px;
+    bottom: -15px;
+}
+.la5 ul li
+{
+    list-style-type: none;
+    padding-bottom: 10px;
+    position: relative;
+
+}
+.la5 ul li:nth-child(1)
+{
+    font-weight: 700;
+}
+.la6
+{
+    position: relative;
+    left: -70px;
+}
+.la6 ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.la6 ul li img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+.flot
+{
+    /* border: 1px solid #fff;   */
+    width: 60%;
+    height: 240px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    right: -240px;
+    bottom: -170px;
+    background-color: #1c222e;
+    box-shadow: 0px 0px 15px #1c222e;
+}
+input 
+{
+    width: 50%;
+    height: 45px;
+    border-radius: 60px;
+}
+.clic1
+{
+    width: 25%;
+    height: 45px;
+    border-radius: 60px;
+    color: #f2f2f2;
+    background-color: rgb(41, 218, 231);
+    position: relative;
+    top: -15px;
+}
+.clic
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+button
+{
+    cursor: pointer;
+} 
+
+
